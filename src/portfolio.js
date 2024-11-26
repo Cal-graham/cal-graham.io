@@ -48,7 +48,6 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  display: true, // Set false to hide this section, defaults to true
   title: "What I do",
   subTitle: "Work with companies and experts to unlock value by prioritizing and tackling complex problems",
   skills: [
