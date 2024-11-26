@@ -249,7 +249,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/esa.png"),
       projectName: "European Space Agency - Course on Satellite Operations",
       projectDesc: "Attended a two-week ESA course on satellite operations to supplement my understanding of Attitude Determination and Control Systems (ADCS) and inform my work as ADCS Manager for Queen's Space Engineering Team",
       footerLink: [
@@ -295,6 +295,19 @@ const achievementSection = {
         {
           name: "Award",
           url: "https://www.dukeofed.org/"
+        }
+      ]
+    },
+    {
+      title: "MATLAB - Live Projectile Prediction and Response",
+      subtitle: "",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
     },
@@ -399,19 +412,6 @@ const achievementSection = {
         {
           name: "Award",
           url: "https://www.dukeofed.org/"
-        }
-      ]
-    },
-    {
-      title: "MATLAB - Live Projectile Prediction and Response",
-      subtitle: "",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
     }
