@@ -367,7 +367,7 @@ const achievementSection = {
       title: "Sensor Design and Python - Espresso Machine Networked Interface",
       subtitle:
         "",
-      image: require("./assets/images/beans1.png"),
+      image: require("./assets/images/beans.1.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
