@@ -153,9 +153,10 @@ const educationInfo = {
       subHeader: "Centre for Teaching and Learning, Engineering Teaching and Learning Team, Civil Engineering Labs",
       duration: "September 2018 - April 2023",
       desc: "Took on part-time roles supporting University faculty while enrolled in a full Engineering course load",
-      descBullets: ["2021-2022 Centre for Teaching and Learning: Worked one-on-one with professors to facilitate transition to online delivery during COVID-19 pandemic",
-                    "2020-2021 Engineering Teaching and Learning Team: Collaborated with education specialists to advise instructors on curriculum delivery",
-                    "2018-2020 Civil Engineering Laboratory: Maintained multiple lab spaces and experiments for post-graduate researchers"
+      descBullets: ["2022-2023 Tea Room: Barista at carbon neutral cafe run by the Engineering Society",
+                    "2020-2021 Centre for Teaching and Learning: Worked one-on-one with professors to facilitate transition to online delivery during COVID-19 pandemic",
+                    "2019-2020 Engineering Teaching and Learning Team: Collaborated with education specialists to advise instructors on curriculum delivery",
+                    "2018-2019 Civil Engineering Laboratory: Maintained multiple lab spaces and experiments for post-graduate researchers"
       ]
     }
   ]
@@ -192,16 +193,17 @@ const workExperiences = {
       company: "Stroud International",
       companylogo: require("./assets/images/StroudLogo.png"),
       date: "September 2023 – Present",
-      desc: "",
+      desc: "Led client improvement teams in four projects to solve complex and high value manufacturing challenges.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "",
+        "",
+        "As the global IT lead I led efforts to improve internal accounting, standardize cybersecurity training, and transition cloud services"
       ]
     },
     {
       role: "Optical Engineering Intern",
       company: "Viavi Solutions",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/ViaviLogo.png"),
       date: "May 2021 – September 2022",
       desc: "",
       descBullets: [
@@ -213,9 +215,9 @@ const workExperiences = {
     {
       role: "Technician's Assistant",
       company: "Queen's Civil Engineering Department",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      companylogo: require("./assets/images/smith.png"),
+      date: "Sept 2018 – Sept 2019",
+      desc: "Maintained multiple lab spaces and experiments for post-graduate researchers."
     }
   ]
 };
@@ -225,7 +227,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -343,7 +345,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -375,7 +377,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -388,18 +390,18 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "",
+  email_address: ""
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
