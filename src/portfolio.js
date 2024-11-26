@@ -125,21 +125,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Queen's University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelor of Applied Science",
+      duration: "September 2019 - April 2023",
+      desc: "Engineering Physics - Electrical Specialization",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Dean’s List, Internship Program, Work Study Program",
+        "Scholarships: Applied Science Class of ’68, Victor Alfred Betts Merit-Based Admission",
+        "Co-authored: Design of a Simulator for Testing Satellite Attitude Determination and Control Systems (JUEPPEQ) (https://ojs.library.queensu.ca/index.php/JUEPPEQ/article/view/16417)"
+
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "Queen's Space Engineering Team",
+      logo: require("./assets/images/QSET.png"),
+      subHeader: "ADCS Team Manager, Technical Consultant",
+      duration: "September 2019 - April 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
