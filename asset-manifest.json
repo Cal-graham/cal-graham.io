@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/cal-graham.io/static/css/main.4d436ed8.css",
-    "main.js": "/cal-graham.io/static/js/main.2f9b3bda.js",
+    "main.js": "/cal-graham.io/static/js/main.b2403061.js",
     "static/css/64.bba8fa55.chunk.css": "/cal-graham.io/static/css/64.bba8fa55.chunk.css",
     "static/js/64.d3ca5e76.chunk.js": "/cal-graham.io/static/js/64.d3ca5e76.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/cal-graham.io/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.2d6fe668.chunk.js": "/cal-graham.io/static/js/769.2d6fe668.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/cal-graham.io/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/StroudLogo.png": "/cal-graham.io/static/media/StroudLogo.709037ca388bf4de7297.png",
     "static/media/Agustina.woff": "/cal-graham.io/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/queens.png": "/cal-graham.io/static/media/queens.7e690de0987fa0b1b636.png",
     "static/media/manOnTable.svg": "/cal-graham.io/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -17,7 +18,6 @@
     "static/media/airbnbLogo.png": "/cal-graham.io/static/media/airbnbLogo.e8497507db673acd3991.png",
     "static/media/QSET.png": "/cal-graham.io/static/media/QSET.5a77e22cb9b3059b5b08.png",
     "static/media/ctl.png": "/cal-graham.io/static/media/ctl.97082858f5d6b912be6f.png",
-    "static/media/facebookLogo.png": "/cal-graham.io/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
     "static/media/codeInLogo.webp": "/cal-graham.io/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/cal-graham.io/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/resume.pdf": "/cal-graham.io/static/media/resume.f0f733dd3cd732b39262.pdf",
@@ -27,7 +27,7 @@
     "index.html": "/cal-graham.io/index.html",
     "static/media/talksCardBack.svg": "/cal-graham.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.4d436ed8.css.map": "/cal-graham.io/static/css/main.4d436ed8.css.map",
-    "main.2f9b3bda.js.map": "/cal-graham.io/static/js/main.2f9b3bda.js.map",
+    "main.b2403061.js.map": "/cal-graham.io/static/js/main.b2403061.js.map",
     "64.bba8fa55.chunk.css.map": "/cal-graham.io/static/css/64.bba8fa55.chunk.css.map",
     "64.d3ca5e76.chunk.js.map": "/cal-graham.io/static/js/64.d3ca5e76.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/cal-graham.io/static/css/769.b3cbb36b.chunk.css.map",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.4d436ed8.css",
-    "static/js/main.2f9b3bda.js"
+    "static/js/main.b2403061.js"
   ]
 }
