@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/cal-graham.io/static/css/main.4d436ed8.css",
-    "main.js": "/cal-graham.io/static/js/main.02a5516b.js",
+    "main.js": "/cal-graham.io/static/js/main.4658be70.js",
     "static/css/64.bba8fa55.chunk.css": "/cal-graham.io/static/css/64.bba8fa55.chunk.css",
     "static/js/64.d3ca5e76.chunk.js": "/cal-graham.io/static/js/64.d3ca5e76.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/cal-graham.io/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.2d6fe668.chunk.js": "/cal-graham.io/static/js/769.2d6fe668.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/cal-graham.io/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/StroudLogo.png": "/cal-graham.io/static/media/StroudLogo.709037ca388bf4de7297.png",
     "static/media/Agustina.woff": "/cal-graham.io/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/ViaviLogo.png": "/cal-graham.io/static/media/ViaviLogo.dda2983b69738a82508c.png",
     "static/media/queens.png": "/cal-graham.io/static/media/queens.7e690de0987fa0b1b636.png",
@@ -26,7 +25,7 @@
     "index.html": "/cal-graham.io/index.html",
     "static/media/talksCardBack.svg": "/cal-graham.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.4d436ed8.css.map": "/cal-graham.io/static/css/main.4d436ed8.css.map",
-    "main.02a5516b.js.map": "/cal-graham.io/static/js/main.02a5516b.js.map",
+    "main.4658be70.js.map": "/cal-graham.io/static/js/main.4658be70.js.map",
     "64.bba8fa55.chunk.css.map": "/cal-graham.io/static/css/64.bba8fa55.chunk.css.map",
     "64.d3ca5e76.chunk.js.map": "/cal-graham.io/static/js/64.d3ca5e76.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/cal-graham.io/static/css/769.b3cbb36b.chunk.css.map",
@@ -34,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.4d436ed8.css",
-    "static/js/main.02a5516b.js"
+    "static/js/main.4658be70.js"
   ]
 }
