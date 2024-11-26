@@ -79,13 +79,12 @@ function Header() {
           <li>
             <a href="mailto:17ceg5@queensu.ca">Contact Me</a>
           </li>
-          /*<li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
-              <ToggleSwitch />
-            </a>
-          </li>
-              */
+          //<li>
+            //{/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            //<a>
+              //<ToggleSwitch />
+            //</a>
+          //</li>
         </ul>
       </header>
     </Headroom>
