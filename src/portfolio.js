@@ -389,9 +389,9 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me"),
+  title: emoji("Cal Graham - Portfolio"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "",
   number: "",
   email_address: ""
 };
@@ -420,6 +420,7 @@ export {
   blogSection,
   talkSection,
   podcastSection,
+  contactInfo,
   twitterDetails,
   isHireable,
   resumeSection
