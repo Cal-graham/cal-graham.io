@@ -237,32 +237,25 @@ const bigProjects = {
   subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      descBullets:[
-        "Service - Volunteer water safety lessons and youth leadership workshops",
-        "Projects - lived a year in Taipei, Taiwan with Rotary International",
-        "Fitness - Regular exercise and team sports",
-        "Skill - Developed my understanding of photography",
-        "Journey - Led a 4-day no-trace portaging trip"
-      ],
+      image: require("./assets/images/duke.jpg"),
+      projectName: "Duke of Edinburgh's Gold Level Award",
+      projectDesc: "Earned the Duke of Edinburgh Gold Award by investing 500+ hours into volunteer work (water safety classes, youth leadership workshops), skill development (learning Mandarin, understanding of photography), and personal improvement (sport, and organizing group portaging trips)",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.dukeofed.org/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "European Space Agency - Course on Satellite Operations",
+      projectDesc: "Attended a two-week ESA course on satellite operations to supplement my understanding of Attitude Determination and Control Systems (ADCS) and inform my work as ADCS Manager for Queen's Space Engineering Team",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.esa.int/Education/ESA_Academy/Ladybird_Guide_to_Spacecraft_Operations_Training_Course_2024_open_for_applications"
         }
       ]
     }
@@ -274,15 +267,15 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Personal Projects"),
+  title: emoji("Projects"),
   subtitle:
     "",
 
   achievementsCards: [
     {
-      title: "Duke of Edinburgh's Gold Level Award",
+      title: "SoidWorks and 3D Printing - Faceshield Design and Manufacture",
       subtitle:
-        "Earned the Duke of Edinburgh Gold Award by investing 500+ hours into:",
+        "",
       image: require("./assets/images/duke.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -293,9 +286,22 @@ const achievementSection = {
       ]
     },
     {
-      title: "European Space Agency - Course on Satellite Operations",
+      title: "MATLAB and Simulink - Satellite Attitude Simulation",
       subtitle:
-        "Attended a two-week ESA course on satellite operations to supplement my understanding of Attitude Determination and Control Systems (ADCS) and inform my work as ADCS Manager for Queen's Space Engineering Team",
+        "",
+      image: require("./assets/images/duke.jpg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Award",
+          url: "https://www.dukeofed.org/"
+        }
+      ]
+    },
+    {
+      title: "Python and C - Attitude Controller Prototype",
+      subtitle:
+        "",
       image: require("./assets/images/esa.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -305,10 +311,100 @@ const achievementSection = {
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Python - Simulating Energy Spectra of Bound Particles",
+      subtitle:
+        "",
+      image: require("./assets/images/duke.jpg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Award",
+          url: "https://www.dukeofed.org/"
+        }
+      ]
+    },
+    {
+      title: "C - Serial Communication for CAN-SBX Balloon",
+      subtitle:
+        "",
+      image: require("./assets/images/duke.jpg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Award",
+          url: "https://www.dukeofed.org/"
+        }
+      ]
+    },
+    {
+      title: "Python and HTML - Networked 3D Printer Controller",
+      subtitle:
+        "",
+      image: require("./assets/images/duke.jpg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Award",
+          url: "https://www.dukeofed.org/"
+        }
+      ]
+    },
+    {
+      title: "Sensor Design and Python - Espresso Machine Networked Interface",
+      subtitle:
+        "",
+      image: require("./assets/images/duke.jpg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Award",
+          url: "https://www.dukeofed.org/"
+        }
+      ]
+    },
+    {
+      title: "Rock Climbing Wall",
+      subtitle:
+        "",
+      image: require("./assets/images/duke.jpg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Award",
+          url: "https://www.dukeofed.org/"
+        }
+      ]
+    },
+    {
+      title: "Camera Repair and Lens Adaptors",
+      subtitle:
+        "",
+      image: require("./assets/images/duke.jpg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Award",
+          url: "https://www.dukeofed.org/"
+        }
+      ]
+    },
+    {
+      title: "Faceshield Design and Manufacture - Local Hospital",
+      subtitle:
+        "",
+      image: require("./assets/images/duke.jpg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Award",
+          url: "https://www.dukeofed.org/"
+        }
+      ]
+    },
+    {
+      title: "MATLAB - Live Projectile Prediction and Response",
+      subtitle: "",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
