@@ -233,13 +233,20 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Personal Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Achievements and Certifications",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      descBullets:[
+        "Service - Volunteer water safety lessons and youth leadership workshops",
+        "Projects - lived a year in Taipei, Taiwan with Rotary International",
+        "Fitness - Regular exercise and team sports",
+        "Skill - Developed my understanding of photography",
+        "Journey - Led a 4-day no-trace portaging trip"
+      ],
       footerLink: [
         {
           name: "Visit Website",
@@ -267,7 +274,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications"),
+  title: emoji("Personal Projects"),
   subtitle:
     "",
 
@@ -278,13 +285,6 @@ const achievementSection = {
         "Earned the Duke of Edinburgh Gold Award by investing 500+ hours into:",
       image: require("./assets/images/duke.jpg"),
       imageAlt: "Google Code-In Logo",
-      descBullets:[
-        "Service - Volunteer water safety lessons and youth leadership workshops",
-        "Projects - lived a year in Taipei, Taiwan with Rotary International",
-        "Fitness - Regular exercise and team sports",
-        "Skill - Developed my understanding of photography",
-        "Journey - Led a 4-day no-trace portaging trip"
-      ],
       footerLink: [
         {
           name: "Award",
@@ -363,7 +363,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
