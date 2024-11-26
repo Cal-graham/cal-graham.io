@@ -133,7 +133,7 @@ const educationInfo = {
       descBullets: [
         "Dean’s List, Internship Program, Work Study Program",
         "Scholarships: Applied Science Class of ’68, Victor Alfred Betts Merit-Based Admission",
-        "Co-authored: Design of a Simulator for Testing Satellite Attitude Determination and Control Systems (JUEPPEQ) (https://ojs.library.queensu.ca/index.php/JUEPPEQ/article/view/16417)"
+        "Co-authored: Design of a Simulator for Testing Satellite Attitude Determination and Control Systems (JUEPPEQ)"
 
       ]
     },
