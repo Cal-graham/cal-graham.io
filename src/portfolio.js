@@ -205,7 +205,7 @@ const workExperiences = {
       company: "Viavi Solutions",
       companylogo: require("./assets/images/ViaviLogo.png"),
       date: "May 2021 – September 2022",
-      desc: "",
+      desc: "Analyzed, developed, and quantified optical technologies to address client needs",
       descBullets: [
         "Presented quantified solutions applying cutting-edge technologies to address client needs",
         "Led weekly meetings triaging customer requirements and development goals to maintain and grow $10M project",
@@ -233,7 +233,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Personal Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -267,37 +267,29 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Duke of Edinburgh's Gold Level Award",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Earned the Duke of Edinburgh Gold Award by investing 500+ hours into Service (Volunteer water safety lessons and youth leadership workshops), Projects (lived a year in Taipei, Taiwan with Rotary International), Fitness (Regular exercise and team sports), Skill (Developed my understanding of photography), and Journey (Led a 4-day no-trace portaging trip)",
+      image: require("./assets/images/duke.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Award",
+          url: "https://www.dukeofed.org/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "European Space Agency - Course on Satellite Operations",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Attended a two-week ESA course on satellite operations to supplement my understanding of Attitude Determination and Control Systems (ADCS) and inform my work as ADCS Manager for Queen's Space Engineering Team",
+      image: require("./assets/images/esa.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
