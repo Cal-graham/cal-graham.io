@@ -406,7 +406,7 @@ const achievementSection = {
       title: "Design of Radio Telescope for Recording 2024 Eclipse in Inclement Weather",
       subtitle:
         "",
-      image: require("./assets/images/duke.jpg"),
+      image: require("./assets/images/Screenshot 2023-03-22 094115.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
