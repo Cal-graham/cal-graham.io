@@ -275,9 +275,16 @@ const achievementSection = {
     {
       title: "Duke of Edinburgh's Gold Level Award",
       subtitle:
-        "Earned the Duke of Edinburgh Gold Award by investing 500+ hours into Service (Volunteer water safety lessons and youth leadership workshops), Projects (lived a year in Taipei, Taiwan with Rotary International), Fitness (Regular exercise and team sports), Skill (Developed my understanding of photography), and Journey (Led a 4-day no-trace portaging trip)",
+        "Earned the Duke of Edinburgh Gold Award by investing 500+ hours into:",
       image: require("./assets/images/duke.jpg"),
       imageAlt: "Google Code-In Logo",
+      descBullets:[
+        "Service - Volunteer water safety lessons and youth leadership workshops",
+        "Projects - lived a year in Taipei, Taiwan with Rotary International",
+        "Fitness - Regular exercise and team sports",
+        "Skill - Developed my understanding of photography",
+        "Journey - Led a 4-day no-trace portaging trip"
+      ],
       footerLink: [
         {
           name: "Award",
