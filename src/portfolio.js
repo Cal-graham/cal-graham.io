@@ -126,7 +126,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Queen's University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/queens.png"),
       subHeader: "Bachelor of Applied Science",
       duration: "September 2019 - April 2023",
       desc: "Engineering Physics - Electrical Specialization",
@@ -145,6 +145,17 @@ const educationInfo = {
       desc: "As the Attitude Determination and Control System (ADCS) Manager my role was to identify and create opportunities for my team to exercise practical applications of engineering science",
       descBullets: ["CAN-SBX: Earned the opportunity to launch an ADCS payload via stratospheric balloon in collaboration with the Canadian Space Agency",
                     "CSDC: Designed and prototyped ADCS systems for the Canadian Cube-Satellite Design Competition (CSDC)"
+      ]
+    },
+    {
+      schoolName: "Work Study Program - Queen's University",
+      logo: require("./assets/images/ctl.png"),
+      subHeader: "Centre for Teaching and Learning, Engineering Teaching and Learning Team, Civil Engineering Labs",
+      duration: "September 2018 - April 2023",
+      desc: "Took on part-time roles supporting University faculty while enrolled in a full Engineering course load",
+      descBullets: ["2021-2022 Centre for Teaching and Learning: Worked one-on-one with professors to facilitate transition to online delivery during COVID-19 pandemic",
+                    "2020-2021 Engineering Teaching and Learning Team: Collaborated with education specialists to advise instructors on curriculum delivery",
+                    "2018-2020 Civil Engineering Laboratory: Maintained multiple lab spaces and experiments for post-graduate researchers
       ]
     }
   ]
