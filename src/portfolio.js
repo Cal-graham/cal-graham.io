@@ -420,7 +420,6 @@ export {
   blogSection,
   talkSection,
   podcastSection,
-  contactInfo,
   twitterDetails,
   isHireable,
   resumeSection
