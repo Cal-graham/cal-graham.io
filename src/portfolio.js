@@ -16,14 +16,14 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
   username: "Cal-Graham",
   title: "Hi, I'm Cal",
   subTitle: emoji(
-    "I am an Engineer, Consultant, Photographer, and Rock Climber 🧗 Currently I am pursuing my passion for solving complex problems and generating positive environmental change through work as a Operations Consultant."
+    "I am an Engineer, Consultant, Photographer, and Rock Climber 🧗 Currently I am pursuing my interest in solving complex problems and passion for environmental change through work as a Operations Consultant."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -142,8 +142,10 @@ const educationInfo = {
       logo: require("./assets/images/QSET.png"),
       subHeader: "ADCS Team Manager, Technical Consultant",
       duration: "September 2019 - April 2023",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "As the Attitude Determination and Control System (ADCS) Manager my role was to identify and create opportunities for my team to exercise practical applications of engineering science",
+      descBullets: ["CAN-SBX: Earned the opportunity to launch an ADCS payload via stratospheric balloon in collaboration with the Canadian Space Agency",
+                    "CSDC: Designed and prototyped ADCS systems for the Canadian Cube-Satellite Design Competition (CSDC)"
+      ]
     }
   ]
 };
