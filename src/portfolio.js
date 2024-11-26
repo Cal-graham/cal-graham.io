@@ -276,7 +276,7 @@ const achievementSection = {
       title: "SoidWorks and 3D Printing - Faceshield Design and Manufacture",
       subtitle:
         "",
-      image: require("./assets/images/duke.jpg"),
+      image: require("./assets/images/Shield.WEB.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -289,7 +289,7 @@ const achievementSection = {
       title: "MATLAB and Simulink - Satellite Attitude Simulation",
       subtitle:
         "",
-      image: require("./assets/images/duke.jpg"),
+      image: require("./assets/images/sat.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -301,7 +301,7 @@ const achievementSection = {
     {
       title: "MATLAB - Live Projectile Prediction and Response",
       subtitle: "",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/SIDEVIEW.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
@@ -315,7 +315,7 @@ const achievementSection = {
       title: "Python and C - Attitude Controller Prototype",
       subtitle:
         "",
-      image: require("./assets/images/esa.png"),
+      image: require("./assets/images/sat.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -328,7 +328,7 @@ const achievementSection = {
       title: "Python - Simulating Energy Spectra of Bound Particles",
       subtitle:
         "",
-      image: require("./assets/images/duke.jpg"),
+      image: require("./assets/images/state.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -341,7 +341,7 @@ const achievementSection = {
       title: "C - Serial Communication for CAN-SBX Balloon",
       subtitle:
         "",
-      image: require("./assets/images/duke.jpg"),
+      image: require("./assets/images/serial2.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -354,7 +354,7 @@ const achievementSection = {
       title: "Python and HTML - Networked 3D Printer Controller",
       subtitle:
         "",
-      image: require("./assets/images/duke.jpg"),
+      image: require("./assets/images/octo.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -367,7 +367,7 @@ const achievementSection = {
       title: "Sensor Design and Python - Espresso Machine Networked Interface",
       subtitle:
         "",
-      image: require("./assets/images/duke.jpg"),
+      image: require("./assets/images/beans1.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -380,7 +380,7 @@ const achievementSection = {
       title: "Rock Climbing Wall",
       subtitle:
         "",
-      image: require("./assets/images/duke.jpg"),
+      image: require("./assets/images/wall.WEB.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -393,7 +393,7 @@ const achievementSection = {
       title: "Camera Repair and Lens Adaptors",
       subtitle:
         "",
-      image: require("./assets/images/duke.jpg"),
+      image: require("./assets/images/adaptor.WEB.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -403,7 +403,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Faceshield Design and Manufacture - Local Hospital",
+      title: "Design of Radio Telescope for Recording 2024 Eclipse in Inclement Weather",
       subtitle:
         "",
       image: require("./assets/images/duke.jpg"),
