@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/"
+  linkedin: "https://www.linkedin.com/in/saadpasta/",
   //gmail: "saadpasta70@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
@@ -133,7 +133,7 @@ const educationInfo = {
       desc: "3.9/4.30 Cumulative GPA - Electrical Specialization",
       descBullets: [
         "Dean’s List, Internship Program, Work Study Program",
-        "Scholarships: Applied Science Class of ’68, Victor Alfred Betts Merit-Based Admission"
+        "Scholarships: Applied Science Class of ’68, Victor Alfred Betts Merit-Based Admission",
         "Co-authored: Design of a Simulator for Testing Satellite Attitude Determination and Control Systems (JUEPPEQ) (https://ojs.library.queensu.ca/index.php/JUEPPEQ/article/view/16417)"
       ]
     },
@@ -143,7 +143,7 @@ const educationInfo = {
       subHeader: "ADCS Manager, Technical Consultant",
       duration: "September 2019 - April 2023",
       desc: "As the Attitude Determination and Control System (ADCS) Manager my role was to identify and create opportunities for my team to exercise practical applications of engineering science. These Include:",
-      descBullets: ["CAN-SBX: Earned the opportunity to launch an ADCS payload via stratospheric balloon in collaboration with the Canadian Space Agency"
+      descBullets: ["CAN-SBX: Earned the opportunity to launch an ADCS payload via stratospheric balloon in collaboration with the Canadian Space Agency",
                     "CSDC: Designed and prototyped ADCS systems for the Canadian Cube-Satellite Design Competition (CSDC)"
       ]
     },
@@ -153,8 +153,8 @@ const educationInfo = {
       subHeader: "Centre for Teaching and Learning, Engineering Teaching and Learning Team, Civil Engineering Labs",
       duration: "September 2018 - April 2023",
       desc: "Took on part-time roles supporting University faculty while enrolled in a full Engineering course load",
-      descBullets: ["2021-2022 Centre for Teaching and Learning: Worked one-on-one with professors to facilitate transition to online delivery during COVID-19 pandemic"
-                    "2020-2021 Engineering Teaching and Learning Team: Collaborated with education specialists to advise instructors on curriculum delivery"
+      descBullets: ["2021-2022 Centre for Teaching and Learning: Worked one-on-one with professors to facilitate transition to online delivery during COVID-19 pandemic",
+                    "2020-2021 Engineering Teaching and Learning Team: Collaborated with education specialists to advise instructors on curriculum delivery",
                     "2018-2020 Civil Engineering Laboratory: Maintained multiple lab spaces and experiments for post-graduate researchers"
       ]
     }
