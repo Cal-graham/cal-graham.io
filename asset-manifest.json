@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cal-graham.io/static/css/main.4d436ed8.css",
-    "main.js": "/cal-graham.io/static/js/main.10f270ae.js",
+    "main.js": "/cal-graham.io/static/js/main.ee4b6307.js",
     "static/css/64.bba8fa55.chunk.css": "/cal-graham.io/static/css/64.bba8fa55.chunk.css",
     "static/js/64.d3ca5e76.chunk.js": "/cal-graham.io/static/js/64.d3ca5e76.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/cal-graham.io/static/css/769.b3cbb36b.chunk.css",
@@ -19,11 +19,10 @@
     "static/media/skill.svg": "/cal-graham.io/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/resume.pdf": "/cal-graham.io/static/media/resume.f0f733dd3cd732b39262.pdf",
     "static/media/pwaLogo.webp": "/cal-graham.io/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
-    "static/media/nextuLogo.webp": "/cal-graham.io/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/cal-graham.io/index.html",
     "static/media/talksCardBack.svg": "/cal-graham.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.4d436ed8.css.map": "/cal-graham.io/static/css/main.4d436ed8.css.map",
-    "main.10f270ae.js.map": "/cal-graham.io/static/js/main.10f270ae.js.map",
+    "main.ee4b6307.js.map": "/cal-graham.io/static/js/main.ee4b6307.js.map",
     "64.bba8fa55.chunk.css.map": "/cal-graham.io/static/css/64.bba8fa55.chunk.css.map",
     "64.d3ca5e76.chunk.js.map": "/cal-graham.io/static/js/64.d3ca5e76.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/cal-graham.io/static/css/769.b3cbb36b.chunk.css.map",
@@ -31,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.4d436ed8.css",
-    "static/js/main.10f270ae.js"
+    "static/js/main.ee4b6307.js"
   ]
 }
