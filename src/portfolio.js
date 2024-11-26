@@ -155,7 +155,7 @@ const educationInfo = {
       desc: "Took on part-time roles supporting University faculty while enrolled in a full Engineering course load",
       descBullets: ["2021-2022 Centre for Teaching and Learning: Worked one-on-one with professors to facilitate transition to online delivery during COVID-19 pandemic",
                     "2020-2021 Engineering Teaching and Learning Team: Collaborated with education specialists to advise instructors on curriculum delivery",
-                    "2018-2020 Civil Engineering Laboratory: Maintained multiple lab spaces and experiments for post-graduate researchers
+                    "2018-2020 Civil Engineering Laboratory: Maintained multiple lab spaces and experiments for post-graduate researchers"
       ]
     }
   ]
