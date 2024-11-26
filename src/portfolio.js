@@ -23,7 +23,7 @@ const greeting = {
   username: "Cal-Graham",
   title: "Hi, I'm Cal",
   subTitle: emoji(
-    "I am an Engineer, Scientist, Consultant, Photographer, but mostly a Rock Climber 🧗 Currently I am pursuing my passion for solving complex problems and pushing for economically viable environmental change through work as a Operations Consultant at Stroud International."
+    "I am an Engineer, Consultant, Photographer, and Rock Climber 🧗 Currently I am pursuing my passion for solving complex problems and generating positive environmental change through work as a Operations Consultant."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -35,14 +35,14 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/saadpasta",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  //gmail: "saadpasta70@gmail.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 // Skills Section
