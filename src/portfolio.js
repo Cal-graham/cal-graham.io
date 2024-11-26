@@ -191,12 +191,12 @@ const workExperiences = {
     {
       role: "Operations Consultant",
       company: "Stroud International",
-      companylogo: require("./assets/images/StroudLogo.png"),
+      companylogo: require("./assets/images/StroudLogo_.png"),
       date: "September 2023 – Present",
-      desc: "Led client improvement teams in four projects to solve complex and high value manufacturing challenges.",
+      desc: "Led client improvement teams over six projects to solve complex and high value manufacturing challenges.",
       descBullets: [
-        "",
-        "",
+        "Led a commercial food manufacturer to identify $8.2M of raw ingredient losses corresponding to 5K tonnes of CO2e",
+        "Initiated an internal team and toolset for assessing carbon impact with the goal of improving commercial-scale carbon reduction projects",
         "As the global IT lead I led efforts to improve internal accounting, standardize cybersecurity training, and transition cloud services"
       ]
     },
