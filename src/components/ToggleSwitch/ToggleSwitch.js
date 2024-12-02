@@ -12,7 +12,7 @@ const ToggleSwitch = () => {
     <label className="switch">
       <input
         type="checkbox"
-        checked={isDark}
+        checked={isLight}
         onChange={() => {
           styleContext.changeTheme();
           setChecked(!isChecked);
