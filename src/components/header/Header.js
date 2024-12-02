@@ -5,6 +5,7 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
+  educationInfo,
   workExperiences,
   skillsSection,
   openSource,
@@ -16,7 +17,9 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
+  const viewEducationInfo = educationInfo.display;
   const viewExperience = workExperiences.display;
+  //const viewCertifications = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
@@ -41,14 +44,19 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          {viewEducationInfo && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Work Experience</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements and Projects</a>
+              <a href="#achievements">Projects</a>
             </li>
           )}
           {viewResume && (
