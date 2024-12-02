@@ -59,11 +59,6 @@ function Header() {
               <a href="#achievements">Projects</a>
             </li>
           )}
-          {viewResume && (
-            <li>
-              <a href="#resume">Resume</a>
-            </li>
-          )}
           <li>
             <a href="mailto:17ceg5@queensu.ca">Contact Me</a>
           </li>
