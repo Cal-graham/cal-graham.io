@@ -153,8 +153,7 @@ const educationInfo = {
       subHeader: "Centre for Teaching and Learning, Engineering Teaching and Learning Team, Civil Engineering Labs",
       duration: "September 2018 - April 2023",
       desc: "Took on part-time roles supporting University faculty while enrolled in a full Engineering course load",
-      descBullets: ["2022-2023 Tea Room: Barista at carbon neutral cafe run by the Engineering Society",
-                    "2020-2021 Centre for Teaching and Learning: Worked one-on-one with professors to facilitate transition to online delivery during COVID-19 pandemic",
+      descBullets: ["2020-2021 Centre for Teaching and Learning: Worked one-on-one with professors to facilitate transition to online delivery during COVID-19 pandemic",
                     "2019-2020 Engineering Teaching and Learning Team: Collaborated with education specialists to advise instructors on curriculum delivery",
                     "2018-2019 Civil Engineering Laboratory: Maintained multiple lab spaces and experiments for post-graduate researchers"
       ]
@@ -195,9 +194,10 @@ const workExperiences = {
       date: "September 2023 – Present",
       desc: "Led client improvement teams over six projects to solve complex and high value manufacturing challenges.",
       descBullets: [
-        "Led a commercial food manufacturer to identify $8.2M of raw ingredient losses corresponding to 5K tonnes of CO2e",
-        "Initiated an internal team and toolset for assessing carbon impact with the goal of improving commercial-scale carbon reduction projects",
-        "As the global IT lead I led efforts to improve internal accounting, standardize cybersecurity training, and transition cloud services"
+        "Identified $8.2M of raw material waste corresponding to 5K tonnes of CO2e",
+        "Increased capacity of medical-grade product 20% sitewide, without capital expense",
+        "Proposed and established a Carbon Accounting team designed to attract climate-conscious clients",
+        "Directed IT globally, enacted accounting, cybersecurity, and cloud service improvements"
       ]
     },
     {
@@ -209,15 +209,19 @@ const workExperiences = {
       descBullets: [
         "Presented quantified solutions applying cutting-edge technologies to address client needs",
         "Led weekly meetings triaging customer requirements and development goals to maintain and grow $10M project",
-        "Initiated team productivity boost of up to 5%/week through development of a Microsoft Cloud integrated logistics applet – tracking lab equipment through passive network scanning"
+        "Initiated productivity boost up to 5% by developing and deploying a cloud-based logistics applet"
       ]
     },
     {
-      role: "Technician's Assistant",
-      company: "Queen's Civil Engineering Department",
+      role: "Barista and Front of House",
+      company: "Tea Room",
       companylogo: require("./assets/images/smith.png"),
-      date: "Sept 2018 – Sept 2019",
-      desc: "Maintained multiple lab spaces and experiments for post-graduate researchers."
+      date: "Sept 2021 – Sept 2022",
+      desc: "Staff member at the Queen's Engineering Society's Carbon Neutral cafe",
+      descBullets: [
+        "Engaged in community development events and initiatives",
+        "Supported the business' goal of modelling a fiscally competitive carbon-neutral business"
+      ]
     }
   ]
 };
@@ -275,145 +279,90 @@ const achievementSection = {
     {
       title: "SoidWorks and 3D Printing - Faceshield Design and Manufacture",
       subtitle:
-        "",
+        "Designed and manufactured 200+ face shields for local hospital staff during COVID shortages",
       image: require("./assets/images/Shield.WEB.jpg"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Award",
-          url: "https://www.dukeofed.org/"
-        }
-      ]
+      imageAlt: "Google Code-In Logo"
     },
     {
       title: "MATLAB and Simulink - Satellite Attitude Simulation",
       subtitle:
-        "",
+        "A simulation of satellite orientation based on reaction wheel control mechanisms. These simulations were used to design QSAT's ADCS systems, as well as the basis for my group's paper on satellite control published by JUEPPEQ (linked below)",
       image: require("./assets/images/sat.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Award",
-          url: "https://www.dukeofed.org/"
+          name: "JUEPPEQ Paper",
+          url: "https://ojs.library.queensu.ca/index.php/JUEPPEQ/article/view/16417"
         }
       ]
     },
     {
       title: "MATLAB - Live Projectile Prediction and Response",
-      subtitle: "",
+      subtitle: "A mechanism which applied knowledge of Control Theory and Numerical Methods in order to solve multiple projectiles' real-time positions and predicted trajectories via a set of atmospheric and location observations",
       image: require("./assets/images/SIDEVIEW.jpg"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      imageAlt: "PWA Logo"
     },
     {
       title: "Python and C - Attitude Controller Prototype",
       subtitle:
-        "",
+        "A combination of hardware and software used to control orientation of a ‘one-U’ cube sat. The first iteration of reaction-wheel control hardware employed a raspberry pi and motor with integrated PWM signal controller on a single axis testing bed. The second iteration of control hardware employed an arduino with a control algorithm written in C.",
       image: require("./assets/images/sat.png"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+      imageAlt: "Google Assistant Action Logo"
     },
     {
       title: "Python - Simulating Energy Spectra of Bound Particles",
       subtitle:
-        "",
+        "A model which applied numerical methods to determine the change in a bound particle’s state and energy spectra based on variation in the potential function binding the particle. Specifically considering potential functions representing the transition between well-known analytical solutions to the Infinite Square Well and Harmonic Oscillator problems.",
       image: require("./assets/images/state.jpg"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Award",
-          url: "https://www.dukeofed.org/"
-        }
-      ]
+      imageAlt: "Google Code-In Logo"
     },
     {
       title: "C - Serial Communication for CAN-SBX Balloon",
       subtitle:
-        "",
+        "Multiple arduinos running serial communication functions within a real time operating system. The microcontrollers work in tandem to read, save, and transfer position and orientation data onboard the CSA’s new stratospheric balloon platform (QSET’s CAN-SBX project).",
       image: require("./assets/images/serial2.jpg"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Award",
-          url: "https://www.dukeofed.org/"
-        }
-      ]
+      imageAlt: "Google Code-In Logo"
     },
     {
       title: "Python and HTML - Networked 3D Printer Controller",
       subtitle:
-        "",
+        "A customized a 3D printer control server based on Octoprint. Integrated the server with the printer chassis and electronics while upgrading motor drivers, hot end, and enclosure.",
       image: require("./assets/images/octo.jpg"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Award",
-          url: "https://www.dukeofed.org/"
-        }
-      ]
+      imageAlt: "Google Code-In Logo"
     },
     {
       title: "Sensor Design and Python - Espresso Machine Networked Interface",
       subtitle:
-        "",
+        "Refurbished and repaired a vintage La Pavoni Pub commercial-scale espresso machine. Added temperature sensors, pressure sensors, flow sensors and control via Raspberry Pi driven network interface (B.E.A.N.S.).",
       image: require("./assets/images/beans.1.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Award",
-          url: "https://www.dukeofed.org/"
+          name: "B.E.A.N.S.",
+          url: "https://github.com/Cal-graham/beans"
         }
       ]
     },
     {
       title: "Rock Climbing Wall",
       subtitle:
-        "",
+        "Manufactured a 300 square foot adjustable rock climbing wall including belay and redundant safety mechanisms. 3D printed custom SolidWorks designs and shaped recycled wood to create custom climbing holds.",
       image: require("./assets/images/wall.WEB.jpg"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Award",
-          url: "https://www.dukeofed.org/"
-        }
-      ]
+      imageAlt: "Google Code-In Logo"
     },
     {
       title: "Camera Repair and Lens Adaptors",
       subtitle:
-        "",
+        "Repaired multiple digital cameras and 3D printed lens mount adaptors to enable use of reclaimed film photography lenses.",
       image: require("./assets/images/adaptor.WEB.jpg"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Award",
-          url: "https://www.dukeofed.org/"
-        }
-      ]
+      imageAlt: "Google Code-In Logo"
     },
     {
       title: "Design of Radio Telescope for Recording 2024 Eclipse in Inclement Weather",
       subtitle:
-        "",
+        "Designed the optical geometry, selected sensors, and created a budget for a radio-telecscope with the goal of enabling a direct-light recording of the 2024 eclipse from Kingston should there have been inclement weather (cloudcover).",
       image: require("./assets/images/Screenshot 2023-03-22 094115.png"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Award",
-          url: "https://www.dukeofed.org/"
-        }
-      ]
+      imageAlt: "Google Code-In Logo"
     }
   ],
   display: true // Set false to hide this section, defaults to true
