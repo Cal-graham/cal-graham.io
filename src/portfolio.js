@@ -281,7 +281,9 @@ const achievementSection = {
       subtitle:
         "Designed and manufactured 200+ face shields for local hospital staff during COVID shortages",
       image: require("./assets/images/Shield.WEB.jpg"),
-      imageAlt: "Google Code-In Logo"
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+      ]
     },
     {
       title: "MATLAB and Simulink - Satellite Attitude Simulation",
@@ -300,35 +302,45 @@ const achievementSection = {
       title: "MATLAB - Live Projectile Prediction and Response",
       subtitle: "A mechanism which applied knowledge of Control Theory and Numerical Methods in order to solve multiple projectiles' real-time positions and predicted trajectories via a set of atmospheric and location observations",
       image: require("./assets/images/SIDEVIEW.jpg"),
-      imageAlt: "PWA Logo"
+      imageAlt: "PWA Logo",
+      footerLink: [
+      ]
     },
     {
       title: "Python and C - Attitude Controller Prototype",
       subtitle:
         "A combination of hardware and software used to control orientation of a ‘one-U’ cube sat. The first iteration of reaction-wheel control hardware employed a raspberry pi and motor with integrated PWM signal controller on a single axis testing bed. The second iteration of control hardware employed an arduino with a control algorithm written in C.",
       image: require("./assets/images/sat.png"),
-      imageAlt: "Google Assistant Action Logo"
+      imageAlt: "Google Assistant Action Logo",
+      footerLink: [
+      ]
     },
     {
       title: "Python - Simulating Energy Spectra of Bound Particles",
       subtitle:
         "A model which applied numerical methods to determine the change in a bound particle’s state and energy spectra based on variation in the potential function binding the particle. Specifically considering potential functions representing the transition between well-known analytical solutions to the Infinite Square Well and Harmonic Oscillator problems.",
       image: require("./assets/images/state.jpg"),
-      imageAlt: "Google Code-In Logo"
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+      ]
     },
     {
       title: "C - Serial Communication for CAN-SBX Balloon",
       subtitle:
         "Multiple arduinos running serial communication functions within a real time operating system. The microcontrollers work in tandem to read, save, and transfer position and orientation data onboard the CSA’s new stratospheric balloon platform (QSET’s CAN-SBX project).",
       image: require("./assets/images/serial2.jpg"),
-      imageAlt: "Google Code-In Logo"
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+      ]
     },
     {
       title: "Python and HTML - Networked 3D Printer Controller",
       subtitle:
         "A customized a 3D printer control server based on Octoprint. Integrated the server with the printer chassis and electronics while upgrading motor drivers, hot end, and enclosure.",
       image: require("./assets/images/octo.jpg"),
-      imageAlt: "Google Code-In Logo"
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+      ]
     },
     {
       title: "Sensor Design and Python - Espresso Machine Networked Interface",
@@ -348,21 +360,27 @@ const achievementSection = {
       subtitle:
         "Manufactured a 300 square foot adjustable rock climbing wall including belay and redundant safety mechanisms. 3D printed custom SolidWorks designs and shaped recycled wood to create custom climbing holds.",
       image: require("./assets/images/wall.WEB.jpg"),
-      imageAlt: "Google Code-In Logo"
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+      ]
     },
     {
       title: "Camera Repair and Lens Adaptors",
       subtitle:
         "Repaired multiple digital cameras and 3D printed lens mount adaptors to enable use of reclaimed film photography lenses.",
       image: require("./assets/images/adaptor.WEB.jpg"),
-      imageAlt: "Google Code-In Logo"
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+      ]
     },
     {
       title: "Design of Radio Telescope for Recording 2024 Eclipse in Inclement Weather",
       subtitle:
         "Designed the optical geometry, selected sensors, and created a budget for a radio-telecscope with the goal of enabling a direct-light recording of the 2024 eclipse from Kingston should there have been inclement weather (cloudcover).",
       image: require("./assets/images/Screenshot 2023-03-22 094115.png"),
-      imageAlt: "Google Code-In Logo"
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
