@@ -40,8 +40,8 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={require("./Calum Graham Resume.pdf")}
+                    download="Calum Graham Resume.pdf"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
