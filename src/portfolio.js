@@ -23,7 +23,7 @@ const greeting = {
   username: "Cal-Graham",
   title: "Hi, I'm Cal",
   subTitle: emoji(
-    "I am an Engineer, Consultant, Photographer, and Rock Climber. Currently I am pursuing my interest in solving complex problems and passion for measurable and viable environmental change through work as an Operations Consultant."
+    "I am an Engineer, Consultant, Photographer, and Rock Climber. Currently I am pursuing my interest in solving complex problems and passion for viable environmental change through work as an Operations Consultant."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
