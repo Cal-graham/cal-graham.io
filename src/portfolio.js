@@ -207,9 +207,9 @@ const workExperiences = {
       date: "May 2021 – September 2022",
       desc: "Analyzed, developed, and quantified optical technologies to address client needs",
       descBullets: [
-        "Presented quantified solutions applying cutting-edge technologies to address client needs",
         "Led weekly meetings triaging customer requirements and development goals to maintain and grow $10M project",
-        "Initiated productivity boost up to 5% by developing and deploying a cloud-based logistics applet"
+        "Initiated productivity boost up to 5% by developing and deploying a cloud-based logistics applet",
+        "Designed testing to address potential of cutting-edge optical products, advising development team based on findings"
       ]
     },
     {
