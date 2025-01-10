@@ -23,7 +23,7 @@ const greeting = {
   username: "Cal-Graham",
   title: "Hi, I'm Cal",
   subTitle: emoji(
-    "I am an Engineer, Consultant, Photographer, and Rock Climber. Currently I am pursuing my interest in solving complex problems and passion for viable environmental change through work as an Operations Consultant."
+    "I am an Engineer, Consultant, Photographer, and Rock Climber. Currently I am pursuing my interest in solving complex problems and passion for environmental change through work as an Operations Consultant."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -207,9 +207,9 @@ const workExperiences = {
       date: "May 2021 – September 2022",
       desc: "Analyzed, developed, and quantified optical technologies to address client needs",
       descBullets: [
+        "Presented quantified solutions applying cutting-edge technologies to address client needs",
         "Led weekly meetings triaging customer requirements and development goals to maintain and grow $10M project",
-        "Initiated productivity boost up to 5% by developing and deploying a cloud-based logistics applet",
-        "Designed testing to address potential of cutting-edge optical products, advising development team based on findings"
+        "Initiated productivity boost up to 5% by developing and deploying a cloud-based logistics applet"
       ]
     },
     {
