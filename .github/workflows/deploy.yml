@@ -27,7 +27,7 @@ jobs:
           node-version: 18.x
 
       - name: Update npm 🚀
-        run: npm install -g npm@20.17.0
+        run: npm install -g npm@latest
 
       - name: Install and Build 🔧 # Build the Project
         run: |
